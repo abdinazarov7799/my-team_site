@@ -11,7 +11,7 @@ body{
     font-family: 'Livvic', sans-serif;
 }
 .container{
-    max-width: 1200px;
+    max-width: 1140px;
     margin: 0 auto;
 }
 .row{
@@ -76,6 +76,7 @@ main{
 .home-hero{
     background-color: #014E56;
     padding-bottom: 250px;
+    position: relative;
 }
 .hero-title{
     width: 635px;
@@ -110,4 +111,16 @@ main{
 }
 .home-hero  .row{
     align-items: center;
+}
+
+.home-hero-frames img{
+    position: absolute;
+}
+.home-hero-frames img:nth-child(1){
+    top: 0;
+    left: 0;
+}
+.home-hero-frames img:nth-child(2){
+    bottom: 0;
+    right: 165px;
 }

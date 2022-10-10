@@ -11,7 +11,7 @@
 #directors{
     position: relative;
     background-color: #004047;
-    padding: 140px 0 168px 0;
+    padding: 140px 0 130px 0;
 }
 #directors h3{
     font-weight: 700;
@@ -19,7 +19,7 @@
     line-height: 48px;
     text-align: center;
     color: #FFFFFF;
-    margin-bottom: 64px;
+    margin-bottom: 26px;
 }
 .frames img:nth-child(1){
     position: absolute;
@@ -36,7 +36,7 @@
     background-color: #012F34;
     padding: 140px 0 150px 0;
 }
-#clients img{
+#clients-frame{
     position: absolute;
     left: 0;
     top: 0;
@@ -45,13 +45,14 @@
     display: grid;
     padding: 0 4%;
     grid-template-columns: 350px 350px 350px;
-    grid-template-rows: 253px 253px;
-    grid-gap: 30px;
+    grid-template-rows: 329px 329px;
+
 }
 .card{
     position: relative;
     background-color: #012F34;
     text-align: center;
+    margin: 38px 15px;
 }
 .card img{
     margin: 32px 0 12px 0;
@@ -68,4 +69,31 @@
     font-size: 15px;
     line-height: 25px;
     color: #FFFFFF;
+}
+.card button{
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    border: 1px transparent;
+    left: 50%;
+    transform: translate(-50%) rotateZ(0);
+    bottom: -28px;
+    color: #012F34;
+    font-size: 30px;
+    font-weight: 700;
+    background-color: #F67E7E;
+    transition: 500ms all ease-in-out;
+}
+.card button:focus{
+    transform: translate(-50%) rotateZ(-225deg);
+    background-color: #79C8C7;
+}
+#clients h2{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 70px;
 }

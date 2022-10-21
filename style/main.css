@@ -57,6 +57,10 @@ nav{
     line-height: 28px;
     color: #FFFFFF;
     font-style: normal;
+    transition: all .3s ease;
+}
+.nav-item a:hover{
+    color: #F67E7E;
 }
 .nav-btn{
     width: 153px;
@@ -69,6 +73,11 @@ nav{
     font-size: 18px;
     line-height: 28px;
     color: #FFFFFF;
+    transition: all .3s ease;
+}
+.nav-btn:hover{
+    color: #002529;
+    background-color: #FFFFFF;
 }
 main{
     flex-grow: 1;
@@ -149,6 +158,11 @@ main{
     font-weight: 600;
     font-size: 18px;
     line-height: 28px;
+    transition: all .3s ease;
+}
+#home-start button:hover{
+    background-color: #002529;
+    color: #FFFFFF;
 }
 #footer{
     background-color: #002529;
@@ -163,6 +177,10 @@ main{
     line-height: 28px;
     color: #FFFFFF;
     margin-right: 40px;
+    transition: all .3s ease;
+}
+.footer-link a:hover{
+    color: #F67E7E;
 }
 .f-contact{
     width: 445px;
